@@ -1,0 +1,29 @@
+--CREATE TABLE customers (
+--    customer_id SERIAL PRIMARY KEY,
+--    first_name VARCHAR(255) NOT NULL,
+--    last_name VARCHAR(255) NOT NULL,
+--    email_address VARCHAR(255) NOT NULL,
+--    phone_number INTEGER NOT NULL,
+--    number_of_complaints INTEGER NULL
+--);
+--
+--INSERT INTO customers (first_name, last_name, email_address, phone_number,
+--number_of_complaints) VALUES ('John', 'Smith', 'smith@mail.com', '5254548', 1);
+--INSERT INTO customers (first_name, last_name, email_address, phone_number,
+--number_of_complaints) VALUES ('Tom', 'Jons', 'tom@mail.com', '5285715', 4);
+--INSERT INTO customers (first_name, last_name, email_address, phone_number,
+--number_of_complaints) VALUES ('Tim', 'Cook', 'tim@mail.com', '6658525', 3);
+--INSERT INTO customers (first_name, last_name, email_address, phone_number,
+--number_of_complaints) VALUES ('Alex', 'Matres', 'alex@mail.com', '5254725', 0);
+--INSERT INTO customers (first_name, last_name, email_address, phone_number,
+--number_of_complaints) VALUES ('Nik', 'Molodtsov', 'molod@mail.com', '8475525', 3);
+
+
+-- SELECT * from weather join cities on (weather.city = cities.name);
+
+--DROP DATABASE master;
+--CREATE DATABASE master;
+--\l посмотреть все базы
+--\с коннект
+--\dt
+-- \q выход

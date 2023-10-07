@@ -1,0 +1,15 @@
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+.idea/
